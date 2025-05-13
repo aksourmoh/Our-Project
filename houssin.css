@@ -1,0 +1,120 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif ;
+}
+body{
+
+   width: 100%;
+
+}
+
+.crud{
+    
+    height:1000px;
+    width: 50%;
+    background: rgb(6, 103, 141);
+    margin: 40px auto;
+    border-radius: 15px;
+}
+button img{
+    width: 30px;
+    height:30px;
+    border-radius:30%;
+    position: relative;
+    top:3px;
+    left: 1px;
+
+}
+button{
+    width: 60px;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    height: 60px;
+    cursor: pointer;
+
+
+}
+.search{
+    
+    width:80%;
+    margin: 30PX auto;
+    padding: 50PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+  
+}
+
+.search input{
+
+    width:90%;
+    height: 35PX;
+    border-radius: 30PX;
+    outline: 0;
+    border: 0;
+    padding: 10PX 10PX ;
+}
+.weather{
+
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.weather #photos{
+ width: 200px;
+
+}
+
+.weather h1{
+    font-size: 50px;
+}
+
+#icon{
+
+    width: 120px;
+}
+
+.humiditiy h2{
+
+    font-size: 35px;
+    color: white;
+}
+
+.humiditiy{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 45px;
+}
+.illizi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#icon1{
+    width: 120px;
+    
+}
+.Windspeed{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Windspeed h2{
+
+    font-size: 35px;
+    color: #fff;
+}
+.houssin{
+
+    margin-right: 30px;
+}
